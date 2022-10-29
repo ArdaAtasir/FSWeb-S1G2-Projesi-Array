@@ -145,10 +145,14 @@ Aşağıdakileri yapmak için ismeGoreCesitCikar işlevini kullanın:
   İPUCU: Bunun için .splice() kullanabilirsiniz.
 */
 
-function ismeGoreCesitCikar(/*kod buraya*/){
-  /*kod buraya*/
-}
+function ismeGoreCesitCikar(tatlar,lezzet){
+  var cıkar = sonCesitiKaldir(tatlar);
+   cıkar.splice(lezzet);
+  return cıkar ;
 
+
+}
+console.log(ismeGoreCesitCikar(orijinalTatlar,5));
 
 /* Görev 7:
 
