@@ -147,7 +147,7 @@ Aşağıdakileri yapmak için ismeGoreCesitCikar işlevini kullanın:
 
 function ismeGoreCesitCikar(tatlar,lezzet){
   var cıkar = sonCesitiKaldir(tatlar);
-   cıkar.splice(lezzet);
+   cıkar.splice (indexOf(lezzet), 1);
   return cıkar ;
 
 
@@ -175,7 +175,8 @@ Aşağıdakileri yapmak için ismeGoreFiltrele işlevini kullanın:
 */
 
 
-function ismeGoreFiltrele(/*kod buraya*/){
+function ismeGoreFiltrele(tatlar,filtre){
+
   /*kod buraya*/
 }
 
