@@ -39,10 +39,13 @@ Aşağıdakileri yapmak için aşağıdaki kopyalama işlevini kullanın:
    2. Alınan dizinin bir kopyasını döndür
 */
 
+function kopyala() {
 
-function kopyala(/*kod buraya*/){
-  /*kod buraya*/
+  var yeni = orijinalTatlar.slice();
+  return yeni;
 }
+console.log(kopyala);
+
 
 
 /* Görev 2:
