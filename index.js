@@ -66,7 +66,7 @@ function dizi25Cesitmi(){
     return false;
   }
  }
- console.loge (dizi25Cesitmi());
+ console.loge (dizi25Cesitmi);
  
 
   /*kod buraya*/
@@ -86,9 +86,9 @@ Aşağıdakileri yapmak için cesitEkle işlevini kullanın:
 */
 
 
-function cesitEkle(tatlar,yeniTatlar){
+function cesitEkle(tatlar,yeniTat){
   var yeniTatlar = kopyala(tatlar);
-  yeniTatlar.unshift(tatlar);
+  yeniTatlar.unshift(yeniTat);
  return yeniTatlar ;
 }
 console.log(cesitEkle(orijinalTatlar,"Kakule"));
